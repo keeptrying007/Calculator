@@ -1,26 +1,23 @@
 
-.calculator{  font-family: Arial, Helvetica, sans-serif;
+.calculator{ font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(128, 132, 106, 0.578);
     padding: 20px 0;
     margin: 0;
     text-align: center;
-    font-size: 3rem;
+    /* font-size: 2rem; */
     margin: 50px;
-    border: 5px solid white;
+    border: 5px solid yellow;
     border-radius: 15px;
+    display: grid;
+    grid-template-columns: 3fr;
   }
-  
-span {
-    border-bottom: 2px solid white;
-    color: white;
-      padding: 4px;
-      font-size: 3rem;
-      font-weight: bold;
-  }
+
   
 input{background-color: rgba(255, 255, 0, 0.897);
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 20px;
+    padding: 5px;
+    width: 40%;
   }
   
 button {
@@ -32,4 +29,13 @@ button {
       font-weight: bold;
       cursor: pointer;
       padding: 5px 8px;
+      font-size: 2rem;
+  }
+
+  span {
+    /* border-bottom: 2px solid white; */
+    color: black;
+      padding: 4px;
+      font-size: 2rem;
+      font-weight: bold;
   }
